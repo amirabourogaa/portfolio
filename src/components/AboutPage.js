@@ -8,7 +8,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
-import astronaut from '../assets/Images/spaceman.png'
+import dev from '../assets/Images/dev.png'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -69,7 +69,7 @@ const AboutPage = () => {
 <ParticleComponent theme='dark' />
 
         <Spaceman>
-            <img src={astronaut} alt="spaceman" />
+            <img src={dev} alt="spaceman" />
         </Spaceman>    
         <Main>
         I'm a fullstack developer located in Tunisia. I love to create simple yet beautiful websites with great user experience.

@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { Github } from '../components/AllSvgs';
-
+// import { Github } from '../components/AllSvgs';
+import git from "../assets/Images/github.png"
 
 
 const Box = styled(motion.li)`
@@ -117,7 +117,8 @@ const Card = (props) => {
                     Visit
                 </Link>
                 <Git to={{pathname: `${github}`}} target="_blank">
-                    <Github width={30} height={30} />
+                    <img width={50} height={50}  src={git} alt="github"></img>
+                    {/* <Github width={30} height={30} /> */}
                 </Git>
             </Footer>
         </Box>
